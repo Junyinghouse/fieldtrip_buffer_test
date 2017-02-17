@@ -1,0 +1,55 @@
+Brain Vision Data Exchange Marker File, Version 2.0
+; Data created from history path: DJ18/Raw Data/Edit Markers
+; The channel numbers are related to the channels in the exported file.
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=DJ18.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>,
+; <Date (YYYYMMDDhhmmssuuuuuu)>, Visible
+; Fields are delimited by commas, some fields may be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20141023141148901116
+Mk2=Response,Ctl12Hz,169464,1,0
+Mk3=Response,Ctl15Hz,192681,1,0
+Mk4=Response,Ctl_VS,269925,1,0
+Mk5=Response,VS,301135,1,0
+Mk6=Response,VS,361095,1,0
+Mk7=Response,VS,420939,1,0
+Mk8=Response,VS,481193,1,0
+Mk9=Response,VS,541208,1,0
+Mk10=Response,Ctl_CO2,754540,1,0
+Mk11=Response,CO2',781508,1,0
+Mk12=Response,CO2',846264,1,0
+Mk13=Response,CO2,900925,1,0
+Mk14=Response,CO2,961201,1,0
+Mk15=Response,CO2,1021087,1,0
+Mk16=Response,Ctl_ITL,1593463,1,0
+Mk17=Response,ITL',1622091,1,0
+Mk18=Response,ITL',1681222,1,0
+Mk19=Response,ITL',1741221,1,0
+Mk20=Response,ITL',1801141,1,0
+Mk21=Response,ITL',1861529,1,0
+Mk22=Response,Ctl_IRL,2148666,1,0
+Mk23=Response,IRL',2191317,1,0
+Mk24=Response,IRL',2251349,1,0
+Mk25=Response,IRL',2311166,1,0
+Mk26=Response,IRL,2371272,1,0
+Mk27=Response,IRL,2431404,1,0
+Mk28=Response,Ctl_VSWO,2572141,1,0
+Mk29=Response,VSWO,2616688,1,0
+Mk30=Response,VSWO,2671280,1,0
+Mk31=Response,VSWO,2738480,1,0
+Mk32=Response,VSWO,2791409,1,0
+Mk33=Response,VSWO,2851223,1,0
+
+[Marker User Infos]
+; Each entry: Prop<Number>=Mk<Marker number>,<Type>,<Name>,<Value>,<Value2>,...,<ValueN>
+; Property number must be unique. Types can be int, single, string, bool, byte, double, uint
+; or arrays of those, indicated int-array etc
+; Array types have more than one value, number of values determines size of array.
+; Fields are delimited by commas, commas in strings are written \1
+; Properties are assigned to markers using their marker number.
